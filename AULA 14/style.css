@@ -1,0 +1,19 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: darkgreen;
+}
+
+div {
+    height: 200px;
+    width: 200px;
+    background-color: cyan;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    text-align: center;
+}
+
+div:hover {
+    color: aliceblue;
+}
