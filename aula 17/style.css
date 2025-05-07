@@ -1,0 +1,18 @@
+div {
+    width: 100%;
+    display: flex;
+    background-color: aquamarine;
+}
+
+div div {
+    height: 600px;
+    width: 450px;
+    background-color: rgb(228, 215, 215);
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 5%;
+    padding: 15px;
+}
+div div input {
+    width: 100%;
+}
