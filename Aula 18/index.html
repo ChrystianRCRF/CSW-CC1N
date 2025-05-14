@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula JavaScript</title>
+</head>
+<body>
+    <h1>Aula Inicial de JavaScript</h1>
+
+    <script type="text/javascript">
+        document.write("<h2>Olá mundo!<h2> <br>");
+        document.write("Prof. Fabricio é o cara!!");
+        windows.alert("Ola mundo!");
+    </script>
+        
+    <h2 id="subtituto"></h2>
+    <hr>
+
+    <h3 id="resposta"></h3>
+    <hr>
+
+    <script type="text/javascript">
+        document.getElementById("subtitulo").innerHTML = "Esse é meu segundo programa Javascript";
+        /*document.getElementById("resposta").innerHTML = window.
+        confirm("Você esta gostando do JS");*/
+        document.getElementById("resposta").innerHTML = "O nome digitado foi: " + window.
+        prompt("Qual seu nome?");
+    </script>
+
+    
+
+</body>
+</html>
